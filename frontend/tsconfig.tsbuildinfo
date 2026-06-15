@@ -1,0 +1,1 @@
+{"root":["./src/App.tsx","./src/main.tsx","./src/api/chat.api.ts","./src/components/ChatWidget.tsx","./src/components/EmptyState.tsx","./src/components/ErrorToast.tsx","./src/components/InputBar.tsx","./src/components/LoadMoreButton.tsx","./src/components/MessageBubble.tsx","./src/components/TypingIndicator.tsx","./src/hooks/useChat.ts"],"version":"5.9.3"}

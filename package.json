@@ -1,0 +1,16 @@
+{
+  "name": "spur-chat-agent",
+  "version": "1.0.0",
+  "description": "Spur AI Chat Agent — Full-stack monorepo",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "install:all": "npm install --prefix frontend && npm install --prefix backend",
+    "build": "npm run build --prefix frontend && npm run build --prefix backend",
+    "start": "npm run start --prefix backend",
+    "db:migrate": "npm run db:migrate --prefix backend",
+    "db:seed": "npm run db:seed --prefix backend"
+  }
+}
