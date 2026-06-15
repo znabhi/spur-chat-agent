@@ -2,7 +2,9 @@
 
 A mini AI customer support agent for a live chat widget — built for the Spur Founding Full-Stack Engineer take-home assignment.
 
-**Live demo:** _[Add your deployment URL here]_
+**Live demo:** [https://spur-chat-agent-uaok.onrender.com/](https://spur-chat-agent-uaok.onrender.com/)
+
+**Video walkthrough:** [Watch Loom Video Demo](https://www.loom.com/share/84eabbbc7a0144209930f48e30ded4d8)
 
 ---
 
