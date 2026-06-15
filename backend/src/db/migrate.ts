@@ -7,7 +7,7 @@ import pool from './client';
 
 async function migrate(): Promise<void> {
   console.log('[migrate] Running migrations...');
-  const migrationPath = path.join(__dirname, 'migrations', '001_init.sql');
+  const migrationPath = path.join(__dirname, '..', '..', 'src', 'db', 'migrations', '001_init.sql');
   const sql = fs.readFileSync(migrationPath, 'utf-8');
 
   const client = await pool.connect();

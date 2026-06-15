@@ -9,7 +9,7 @@
   "scripts": {
     "install:all": "npm install --include=dev --prefix frontend && npm install --include=dev --prefix backend",
     "build": "npm run build --prefix frontend && npm run build --prefix backend",
-    "start": "npm run start --prefix backend",
+    "start": "npm run db:migrate --prefix backend && npm run db:seed --prefix backend && npm run start --prefix backend",
     "db:migrate": "npm run db:migrate --prefix backend",
     "db:seed": "npm run db:seed --prefix backend"
   }
